@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table of Product</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      table,
+      td,
+      th {
+        border: 0.5px solid;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .search {
+        margin: 15px 0;
+        width: 524px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="search" class="search" placeholder="search....." />
+    <table>
+      <thead class="thead">
+        <tr>
+          <th class="id">ID</th>
+          <th class="name">Name</th>
+          <th class="name">Price</th>
+          <th class="name">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="tbody"></tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/add.js"></script>
+  </body>
+</html>
