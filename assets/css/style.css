@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.containerr {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+/* featured */
+.featured {
+  padding: 30px 0;
+}
+.my-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.my-card img {
+  width: 100%;
+}
+.card-text {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-text span {
+  color: #222222;
+  opacity: 0.8;
+  font-size: 20px;
+}
+.card-text a {
+  color: #222222;
+  transition: all 1s;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 18px;
+}
+.card-text a:hover {
+  color: #e65540;
+}
+.featured-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-heading h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+/* beauty */
+#beauty {
+  background-color: #f2f2f2;
+}
+.beauty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow: hidden;
+  padding: 40px 0;
+}
+.left-div {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.left-div img {
+  width: 100%;
+  transition: all 1s;
+}
+.left-div img:hover {
+  transform: scale(1.1);
+}
+.text-of-beauty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 35%;
+  color: white;
+}
+.text-of-beauty span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-of-beauty h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.text-of-beauty a {
+  color: white;
+  text-decoration: none;
+}
+.text-of-beauty a:hover {
+  text-decoration: underline;
+}
+.right-div {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-div img {
+  width: 100%;
+  transition: all 1s;
+}
+.right-div img:hover {
+  transform: scale(1.1);
+}
+.text-of-beauty-right {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-of-beauty-right a {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #222222;
+  transition: all 1s;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.text-of-beauty-right a:hover {
+  color: #e65540;
+}
+.text-of-beauty-right span {
+  font-size: 18px;
+  opacity: 0.8;
+  padding: 5px;
+}
+.line-price {
+  text-decoration: line-through;
+}
+.simple-price {
+  color: #e65540;
+}
+.times {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 20px 0;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 60px;
+}
+.time span {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+/* our blog */
+.blogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.blogs-of-all {
+  padding: 40px 0;
+}
+.blog-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+.blog-heading h3 {
+  font-weight: bold;
+  color: #222222;
+}
+.img img {
+  width: 100%;
+  transition: all 0.9s;
+  cursor: pointer;
+}
+.img {
+  overflow: hidden;
+}
+.img img:hover {
+  transform: scale(1.1);
+}
+.text a {
+  font-weight: 200;
+  font-size: 24px;
+  text-decoration: none;
+  color: #222222;
+  transition: all 1s;
+}
+.text a:hover {
+  color: #e65540;
+}
+.text span {
+  opacity: 0.6;
+  font-size: 13px;
+}
+.text p {
+  opacity: 0.8;
+  font-size: 13px;
+}
+.text {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media screen and (max-width: 1199px) {
+  .containerr {
+    margin: 0 5%;
+  }
+  .times {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .containerr {
+    margin: 0 5%;
+  }
+  .blogs {
+    flex-direction: column;
+  }
+  .beauty {
+    flex-direction: column;
+  }
+  .text-of-beauty span {
+    font-size: 20px;
+  }
+  .text-of-beauty h3 {
+    font-size: 30px;
+  }
+  .text-of-beauty-right a {
+    font-size: 10px;
+  }
+  .text-of-beauty-right {
+    left: 20%;
+  }
+  .times {
+    display: none;
+  }
+  .text-of-beauty-right span {
+    font-size: 14px;
+  }
+}

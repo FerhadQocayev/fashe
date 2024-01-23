@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "title": "Herschel supply co 25l",
+      "newPrice": "75.00",
+      "id": "1",
+      "img": "https://preview.colorlib.com/theme/fashe/images/item-02.jpg"
+    },
+    {
+      "title": "Herschel supply co 25l",
+      "new-price": "55.00",
+      "id": "2",
+      "img": "https://preview.colorlib.com/theme/fashe/images/item-03.jpg"
+    },
+    {
+      "title": "Herschel supply co 25l",
+      "new-price": "66.00",
+      "id": "3",
+      "img": "https://preview.colorlib.com/theme/fashe/images/item-05.jpg"
+    },
+    {
+      "title": "Herschel supply co 25l",
+      "new-price": "14img.00",
+      "id": "4",
+      "img": "https://preview.colorlib.com/theme/fashe/images/item-07.jpg"
+    }
+  ]
+}
